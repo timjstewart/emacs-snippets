@@ -1,0 +1,5 @@
+# Author: Jonas Bonèr <jonas@jonasboner.com>
+# name: package ..
+# key: pac
+# --
+package `(current-package-name)`
