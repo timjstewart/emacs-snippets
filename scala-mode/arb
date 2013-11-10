@@ -1,0 +1,9 @@
+# name: Create arbitrary values using Gen
+# key: arb
+# --
+implicit val arbitrary${1:Type}: Arbitrary[$1] = Arbitrary {
+  for {
+    ${2:name} <- ${3:value}
+  } yield new $1($2)
+}
+
